@@ -1,0 +1,26 @@
+span{
+    cursor: pointer;
+    padding:10px
+}
+.container_pagination{
+    margin-top: 20px;
+}
+
+.container_pagination .arrow{
+    color: rgb(196, 196, 196);
+    cursor: pointer;
+}
+.container_pagination .arrow:hover{
+    color: rgb(143, 143, 143);
+    transition: all 0.5s;
+}
+
+.container_pagination span{
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+    color: rgb(141, 141, 141);
+}
+
+.container_pagination .active{
+    background-color: rgb(196, 228, 255);
+}

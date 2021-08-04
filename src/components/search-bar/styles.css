@@ -1,0 +1,147 @@
+.container-searchbar{
+    width: 100%;
+    min-height: 100vh;
+    -webkit-box-shadow: 5px 6px 15px 5px rgba(0,0,0,0.18); 
+    box-shadow: 5px 6px 15px 5px rgba(0,0,0,0.18);
+}
+.container-searchbar img{
+    max-width: 225px;
+    padding-top: 10px;
+}
+
+.ordenar form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto
+}
+
+/* searchbar */
+
+.searchbar{
+    border-radius: 20px;
+}
+
+.searchbar input[type="text"]{
+    border: none;
+    -webkit-box-shadow: 5px 6px 15px 5px rgba(82, 82, 82, 0.18); 
+    box-shadow: 5px 6px 15px 5px rgba(58, 58, 58, 0.18);
+    padding: 10px
+}
+
+
+.checkboxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    font-size: 16px;
+    color: #F37226;
+    text-align: left;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+}
+
+.ordenar form label div{
+    display: flex;
+    flex: row;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.ordenar form label p{
+    font-size: 14px;
+    padding: 15px 0px 0px 0px;
+    margin: 0
+}
+
+/* FILTROS */
+.filtros{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.filtros label {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5px
+}
+
+.filtros label input{
+    border: none;
+    -webkit-box-shadow: 5px 6px 15px 5px rgba(82, 82, 82, 0.18); 
+    box-shadow: 5px 6px 15px 5px rgba(58, 58, 58, 0.18);
+    padding: 10px;
+    margin: 5px
+}
+
+.filtros label p{
+    text-align: left;
+    color:rgba(22, 22, 22, 0.5)
+}
+.activo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+.activo p{
+    padding-left: 10px;
+}
+
+/* action buttons */
+
+input[type="submit"], button{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.actionButtons{
+    color: white;
+    font-weight: 600;
+    display: flex;
+}
+.actionButtons div{
+    background-color: none;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.actionButtons img{
+    max-width: 40px;
+}
+
+.limpiar{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+/*  ERRORS  */
+.info{
+    font-size: 10px;
+    color:rgb(255, 130, 28);
+    text-align: right;
+    padding: 5px 5px 0px 5px;
+}
+
+button{
+    background-color: none;
+}
